@@ -1,0 +1,9 @@
+/* TODO: Setup Mixins */
+
+@mixin fontFaceAvenirNext()
+{
+    font-family: 'Avenir Next';
+    src: url('./typography/Avenir\ Next.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
