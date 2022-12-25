@@ -80,7 +80,7 @@ class Modal extends React.Component {
       type: inventoryType,
       warehouse_id: id,
     };
-    const baseUrl = "https://inv-backend6858.herokuapp.com/";
+    const baseUrl = "https://inv-backend6858.herokuapp.com";
 
     fetch(`${baseUrl}/warehouses/${id}`, {
       method: "POST",
