@@ -20,13 +20,13 @@ export default class TopBar extends Component {
         </form>
         <div className="topbar__rightBox">
           <img
-            src="../Assets/Avatar/Avatar.jpg"
+            src="/Assets/Avatar/Avatar.jpg"
             className="topbar__rightBox--userImg"
             alt="myImg"
           />
           <div className="topbar__rightBox--optionForm">
             <img
-              src="../Assets/Icons/Dropdown.svg"
+              src="/Assets/Icons/Dropdown.svg"
               className="topbar__rightBox--optionForm__icon"
               alt="myImg"
             />
