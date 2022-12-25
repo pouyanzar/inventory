@@ -20,7 +20,7 @@ export default class TopBar extends Component {
         </form>
         <div className="topbar__rightBox">
           <img
-            src="./Assets/Avatar/Avatar.jpg"
+            src="./Assets/Avatar/avatar.jpg"
             className="topbar__rightBox--userImg"
             alt="myImg"
           />
