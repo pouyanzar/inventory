@@ -13,20 +13,20 @@ export default class TopBar extends Component {
             placeholder="Search"
           />
           <img
-            src="/Assets/Icons/Search.svg"
+            src="./Assets/Icons/Search.svg"
             className="topbar__searchBox--img"
             alt="myImg"
           />
         </form>
         <div className="topbar__rightBox">
           <img
-            src="/Assets/Avatar/Avatar.jpg"
+            src="./Assets/Avatar/Avatar.jpg"
             className="topbar__rightBox--userImg"
             alt="myImg"
           />
           <div className="topbar__rightBox--optionForm">
             <img
-              src="/Assets/Icons/Dropdown.svg"
+              src="./Assets/Icons/Dropdown.svg"
               className="topbar__rightBox--optionForm__icon"
               alt="myImg"
             />
