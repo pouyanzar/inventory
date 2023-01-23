@@ -2,7 +2,7 @@ import React from "react";
 import WarehouseChild from "./WarehouseChild";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
-const baseUrl = "https://inv-backend6858.herokuapp.com";
+const baseUrl = "https://inventory-server-yzm0.onrender.com";
 const warehousesPath = "/warehouses";
 
 export default class Warehouses extends React.Component {

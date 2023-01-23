@@ -9,7 +9,7 @@ export default class ProductDetail extends React.Component {
 
   componentDidMount(prevProps, prevState) {
     const targetId = this.props.productId;
-    let baseURL = "https://inv-backend6858.herokuapp.com";
+    let baseURL = "https://inventory-server-yzm0.onrender.com";
     let prodData = "/inventory";
 
     fetch(baseURL + prodData + "/" + targetId)
